@@ -1,0 +1,25 @@
+/* Please be aware that this listing 06-10-02.c is adjusted to 16 GB of RAM !!!!
+If your RAM is smaller than you should adjust to your RAM size of your machine.
+Otherwise program reports then "segmentation fault".
+
+Simply compile with :
+gcc -ggdb -Wall test-06-10-02.c -o test-06-10-02 -funsafe-math-optimizations
+
+With RAM-size of 16 GB this program takes two hours to run to end.
+After this then USB-ports are not dead any more.
+
+Please read code carefully.
+
+Still searching for way to run this listing faster.
+Somebody please help, cause here am not good in math.
+
+In earlier versions of gcc it was possible to make jumps in for-loop with gcc ?!
+Today jumps are not possible ... ?!
+
+for example : for (x=0;x<4096;1024++) { ... }  ... it is not possible
+to jump in steps with 1024 size ?!
+
+Greetz.
+Carl-Valentin Schmitt
+cv.schmitt@googlemail.com */
+
